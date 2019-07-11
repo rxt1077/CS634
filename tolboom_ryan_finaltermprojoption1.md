@@ -191,3 +191,5 @@ $ for PART in 00 01 02 03 04 05 06 07 08 09
 | 23.8          | 40.5          | 3.9            | 0.1            |
 
 As can be seen, this method classifies data with a 94% accuracy.
+
+TODO: Add precision, recall, and an explaination
