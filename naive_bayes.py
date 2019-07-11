@@ -66,12 +66,7 @@ with open(sys.argv[1], newline='') as csvfile:
 
 # Prediction
 
-results = {
-    'TP': 0,
-    'FP': 0,
-    'TN': 0,
-    'FN': 0,
-}
+results = {'TP': 0, 'TN': 0, 'FP': 0, 'FN': 0}
 
 with open(sys.argv[2], newline='') as csvfile:
     testdata = csv.reader(csvfile)
